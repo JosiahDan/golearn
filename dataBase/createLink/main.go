@@ -9,7 +9,7 @@ import (
 
 func main() {
 	//定义账户名称密码和数据库地址以及数据库名称
-	dsn := "root:Djx757198@tcp(127.0.0.1:3306)/learning"
+	dsn := "root:12345@tcp(127.0.0.1:3306)/learning"
 	//返回一个err,如果出错打印出错误
 	db, err := sql.Open("mysql", dsn)
 	if err != nil {
